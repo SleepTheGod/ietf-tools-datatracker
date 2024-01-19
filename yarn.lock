@@ -6698,9 +6698,9 @@ browserlist@latest:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.59.0":
-  version: 2.75.3
-  resolution: "rollup@npm:2.75.3"
+"rollup@npm:>=2.59.0 <2.78.0":
+  version: 2.77.3
+  resolution: "rollup@npm:2.77.3"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -6708,7 +6708,7 @@ browserlist@latest:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: ac33a2336df049f21dea64e4c9faee2551bddf2920944ea6214b2ed214f3861c9a4e1a8b7a32d2af6632f649a25a2bf4da8fad9f84f5093f2bf4d7e77933756b
+  checksum: b179c68249584565ddb5664a241e8e48c293b2207718d885b08ee25797d98857a383f06b544bb89819407da5a71557f4713309a278f61c4778bb32b1d3321a1c
   languageName: node
   linkType: hard
 
@@ -6774,7 +6774,7 @@ browserlist@latest:
     send: 0.18.0
     slugify: 1.6.5
     sortablejs: 1.15.0
-    vite: 2.9.14
+    vite: 2.9.17
     vue: 3.2.37
     vue-router: 4.1.2
     zxcvbn: 4.4.2
@@ -7588,15 +7588,15 @@ browserlist@latest:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.14":
-  version: 2.9.14
-  resolution: "vite@npm:2.9.14"
+"vite@npm:2.9.17":
+  version: 2.9.17
+  resolution: "vite@npm:2.9.17"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
     postcss: ^8.4.13
     resolve: ^1.22.0
-    rollup: ^2.59.0
+    rollup: ">=2.59.0 <2.78.0"
   peerDependencies:
     less: "*"
     sass: "*"
@@ -7613,7 +7613,7 @@ browserlist@latest:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: f78b54f58482ea97d385e36873ae1aa4744c5e467c1d6d4e0835bd55494d2d8f6ce763f17c241c66104be687d5ee535b8e1e96c14210c9ba0c343fe78c58f694
+  checksum: a9c3e15d0191984d0a297aed8e4309c9264c3e4dc095c54f8f28fd3abe00c45d893187f253bbb91db5dea7dc35bbcde2902b04114077d6805789b339f978193c
   languageName: node
   linkType: hard
 
